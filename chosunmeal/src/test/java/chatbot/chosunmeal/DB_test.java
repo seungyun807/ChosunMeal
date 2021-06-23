@@ -12,7 +12,7 @@ public class DB_test {
     public void test() throws Exception{
         Class.forName("org.mariadb.jdbc.Driver");
         Connection con = DriverManager.getConnection("jdbc:mariadb://localhost:3306/test",
-                "meal",
+                "root",
                 "");
         System.out.println(con);
     }

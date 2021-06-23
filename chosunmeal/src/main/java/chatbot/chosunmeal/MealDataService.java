@@ -1,6 +1,5 @@
 package chatbot.chosunmeal;
 
-import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -79,5 +78,9 @@ public class MealDataService {
             System.out.println(mealTables.get(i));
         }
 
+        jdbcMealRepository createDB = new jdbcMealRepository();
+        //createDB.connect();
+
+        createDB.insert(mealTables);
     }
 }
