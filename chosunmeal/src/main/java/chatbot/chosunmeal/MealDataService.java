@@ -79,8 +79,8 @@ public class MealDataService {
         }
 
         jdbcMealRepository createDB = new jdbcMealRepository();
-        //createDB.connect();
+        createDB.connect(mealTables);
 
-        createDB.insert(mealTables);
+//        createDB.insert(mealTables);
     }
 }

@@ -15,3 +15,6 @@
 >   ( AWS RDS MariaDB 생성)
 - ec2에서 mariaDB 연결
 - jdbcMealRepository.class -> 로컬 mariaDB와 연결
+
+6 / 24
+> ( ec2에 프로젝트 업로드 )

@@ -13,8 +13,6 @@ class ChosunmealApplicationTests {
 	@Test
 	void contextLoads() throws IOException, NoSuchAlgorithmException, KeyManagementException {
 		MealDataService data = new MealDataService();
-
-		data.getMealData();
 	}
 
 
