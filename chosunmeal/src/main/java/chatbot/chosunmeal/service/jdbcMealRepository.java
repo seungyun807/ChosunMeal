@@ -1,4 +1,4 @@
-package chatbot.chosunmeal;
+package chatbot.chosunmeal.service;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,13 +12,13 @@ public class jdbcMealRepository {
     Statement stmt = null;
 
     String url = "jdbc:mariadb://db.c3v7iazhsj6s.us-east-2.rds.amazonaws.com:3306/DB?serverTimezone=UTC&characterEncoding=UTF-8";
-    String id = "user";
+    String user = "user";
     String pw = "a1645389";
 
     public void connect(List<MealTable> mealTable) {
 
         try{
-            conn = DriverManager.getConnection(url, id, pw);
+            conn = DriverManager.getConnection(url, user, pw);
 
             stmt = conn.createStatement();
 
@@ -64,6 +64,7 @@ public class jdbcMealRepository {
             }
         }
     }
+
     public void insert(List<MealTable> mealTable) {
         String temp = mealTable.get(0).toString();
         System.out.println("db 출력 = " + temp.substring(0,5));
@@ -74,4 +75,6 @@ public class jdbcMealRepository {
             e.printStackTrace();
         }
     }
+
+
 }

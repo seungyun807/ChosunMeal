@@ -1,5 +1,6 @@
 package chatbot.chosunmeal;
 
+import chatbot.chosunmeal.service.MealDataService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

@@ -1,4 +1,4 @@
-package chatbot.chosunmeal;
+package chatbot.chosunmeal.service;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
