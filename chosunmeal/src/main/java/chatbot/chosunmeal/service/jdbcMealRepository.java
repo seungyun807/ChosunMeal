@@ -1,5 +1,7 @@
 package chatbot.chosunmeal.service;
 
+import chatbot.chosunmeal.dto.MealTable;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -40,12 +42,15 @@ public class jdbcMealRepository {
             stmt.execute(truncate);
 
 
-            for (int i = 0; i < 10; i++){
+            for (int i = 0; i < 14; i++){
                 String temp = mealTable.get(i).getDay();
+
                 String date = temp.substring(5, 10);
 
                 temp = mealTable.get(i).getDay();
+
                 String day = temp.substring(13, 14);
+
 
                 String sql1 = "INSERT INTO meal VALUES ('"+date+"', '"+day+"', '"+mealTable.get(i).getWhen()+"', '"+mealTable.get(i).getMenu()+"');";
                 stmt.execute(sql1);

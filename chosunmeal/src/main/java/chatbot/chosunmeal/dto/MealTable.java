@@ -1,4 +1,4 @@
-package chatbot.chosunmeal.service;
+package chatbot.chosunmeal.dto;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -8,6 +8,7 @@ import lombok.ToString;
 @ToString
 @Builder
 @Getter
+@Setter
 
 public class MealTable {
     private String day;
@@ -23,9 +24,9 @@ public class MealTable {
     }
 
 
-    public void setDay(String DAY){
-        this.day = DAY;
-    }
+//    public void setDay(String DAY){
+//        this.day = DAY;
+//    }
 
 }
 
