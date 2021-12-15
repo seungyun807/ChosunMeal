@@ -1,6 +1,43 @@
 # ChosunMeal
 ------------
+~~2021/08/27 최종배포 완료~~
+(현재 서비스 종료)
 
+## 개요
+카카오톡 챗봇을 통해 식단을 알려주는 서비스
+<br><br>
+
+## 배경
+식단을 확인하려면 직접 사이트에 접속하거나 식당에가서 번거롭게 확인해야되는 상황에 편리함을 주고자 만들게된 서비스
+<br><br>
+
+## 개발환경
+<div>
+<img src="https://user-images.githubusercontent.com/76242399/146101155-57f1acfc-2d13-4bcb-8763-0f4c6d9bf050.png"  width="8%"/>
+<img src="https://user-images.githubusercontent.com/76242399/146099218-dbf191d9-6767-49dc-97aa-2b4c5be1c698.png"  width="20%"/>
+<img src="https://user-images.githubusercontent.com/76242399/146099249-fb53d51d-c975-42ca-b762-3222fd81e2db.png"  width="20%"/>
+<img src="https://user-images.githubusercontent.com/76242399/146099273-d360bd3d-ee6b-4cf8-a74e-3a7e99213f9c.png"  width="15%"/>
+</div>
+
+* Java
+* Spring Boot
+* MySQL
+* AWS
+<br><br>
+
+## 구조도
+
+<br><br>
+![image](https://user-images.githubusercontent.com/76242399/146102831-44480228-f1ae-470e-9d9e-973da7f6a979.png)
+
+## 기능
+<div>
+<img src="https://user-images.githubusercontent.com/76242399/146100264-588c0dc2-c088-48ad-84c8-d03af926cc01.png"  width="30%"/>
+<img src="https://user-images.githubusercontent.com/76242399/146100301-44f51d88-7282-4250-9ea4-90b50a378a93.png"  width="30%"/>
+</div>
+<br><br>
+
+## 진행사항
 6 / 21
 >   ( 조선대 식단 정보 크롤링 )
 
