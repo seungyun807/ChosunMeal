@@ -1,6 +1,7 @@
 # ChosunMeal
 ------------
 ~~2021/08/27 최종배포 완료~~
+<br>
 (현재 서비스 종료)
 
 ## 개요
@@ -12,12 +13,8 @@
 <br><br>
 
 ## 개발환경
-<div>
-<img src="https://user-images.githubusercontent.com/76242399/146101155-57f1acfc-2d13-4bcb-8763-0f4c6d9bf050.png"  width="8%"/>
-<img src="https://user-images.githubusercontent.com/76242399/146099218-dbf191d9-6767-49dc-97aa-2b4c5be1c698.png"  width="20%"/>
-<img src="https://user-images.githubusercontent.com/76242399/146099249-fb53d51d-c975-42ca-b762-3222fd81e2db.png"  width="20%"/>
-<img src="https://user-images.githubusercontent.com/76242399/146099273-d360bd3d-ee6b-4cf8-a74e-3a7e99213f9c.png"  width="15%"/>
-</div>
+![image](https://user-images.githubusercontent.com/76242399/146108931-b3749799-fd12-4788-9192-2c239ac4f876.png)
+
 
 * Java
 * Spring Boot
